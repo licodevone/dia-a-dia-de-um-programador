@@ -105,3 +105,26 @@ Exemplos:
 ## Desinstalação do OHMYPOSH
 
 > Acessar o diretório para encontrar o arquivo de desinstalação C:\Users\lespi\AppData\Local\Programs
+
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+Aparece um erro é só deletar o arquivo
+=== 
+![alt text](image-4.png)
+
+Deletar o arquivo abaixo
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-5.png)
+
+> Caracteres desconfigurados
+
+<mark>Modificar para Nerd fonts</mark>
+
+https://ohmyposh.dev/docs/faq#after-updating-my-nerd-font-to-a-newer-version-the-prompt-displays-unknown-characters
+

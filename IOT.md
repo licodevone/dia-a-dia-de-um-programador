@@ -5,37 +5,37 @@
 > Acessar o link https://www.arduino.cc/en/software
 
 
-![alt text](image-70.png)
+![alt text](img/imagens_3/image-70.png)
 
-![alt text](image-71.png)
+![alt text](img/imagens_3/image-71.png)
 
-![alt text](image-72.png)
+![alt text](img/imagens_3/image-72.png)
 
-![alt text](image-73.png)
+![alt text](img/imagens_3/image-73.png)
 
-![alt text](image-74.png)
+![alt text](img/imagens_3/image-74.png)
 
-![alt text](image-75.png)
+![alt text](img/imagens_3/image-75.png)
 
-![alt text](image-76.png)
+![alt text](img/imagens_3/image-76.png)
 
-![alt text](image-77.png)
+![alt text](img/imagens_3/image-77.png)
 
-![alt text](image-78.png)
+![alt text](img/imagens_3/image-78.png)
 
-![alt text](image-79.png)
+![alt text](img/imagens_3/image-79.png)
 
-![alt text](image-80.png)
+![alt text](img/imagens_3/image-80.png)
 
-![alt text](image-81.png)
+![alt text](img/imagens_3/image-81.png)
 
-![alt text](image-82.png)
+![alt text](img/imagens_3/image-82.png)
 
-![alt text](image-83.png)
+![alt text](img/imagens_3/image-83.png)
 
-![alt text](image-84.png)
+![alt text](img/imagens_3/image-84.png)
 
-![alt text](image-85.png)
+![alt text](img/imagens_3/image-85.png)
 
 ```
 Downloading packages
@@ -98,5 +98,28 @@ Installed LiquidCrystal@1.0.7
 
 ```
 
-![alt text](image-86.png)
+![alt text](img/imagens_3/image-86.png)
+
+Drivers ESP32
+
+![alt text](img/imagens_3/image-26.png)
+
+![alt text](img/imagens_3/image-27.png)
+
+![alt text](img/imagens_3/image-28.png)
+
+![alt text](img/imagens_3/image-29.png)
+
+![alt text](img/imagens_3/image-30.png)
+
+![alt text](img/imagens_3/image-31.png)
+
+![alt text](img/imagens_3/image-32.png)
+
+![alt text](img/imagens_3/image-33.png)
+
+![alt text](img/imagens_3/image-34.png)
+
+![alt text](img/imagens_3/image-35.png)
+
 

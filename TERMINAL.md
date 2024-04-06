@@ -24,3 +24,26 @@
 
 ![alt text](img/imagens/image-23.png)
 
+## Desinstalar o Terminal
+
+![alt text](img/imagens_4/image-17.png)
+
+## Desinstalar o Termina PowerShell 
+
+![alt text](img/imagens_4/image-13.png)
+
+![alt text](img/imagens_4/image-14.png)
+
+![alt text](img/imagens_4/image-15.png)
+
+![alt text](img/imagens_4/image-16.png)
+
+![alt text](img/imagens_4/image-18.png)
+
+![alt text](img/imagens_4/image-19.png)
+
+![alt text](img/imagens_4/image-20.png)
+
+![alt text](img/imagens_4/image-21.png)
+
+![alt text](img/imagens_4/image-22.png)
