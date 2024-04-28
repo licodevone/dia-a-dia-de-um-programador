@@ -161,7 +161,7 @@ https://www.youtube.com/watch?v=p6RoEe0CO_Q
 
 ## Criando uma instalação do Windows 11 através de Imagem ISO
 
-> Nomomento que a tela mostrar o botão iniciar é preciso segurar uma tecla porexemplo a espaço, depois clicar no botão iniciar até começar a instalação.
+> No momento que a tela mostrar o botão iniciar é preciso segurar uma tecla porexemplo a espaço, depois clicar no botão iniciar até começar a instalação.
 
 > Eliminando os requisitos para a instalação do Windows 11
 
