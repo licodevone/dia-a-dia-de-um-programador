@@ -73,7 +73,7 @@ O que é SSL / TLS e HTTPS? "
 
 A RFC 1594 define o termo datagrama da seguinte forma: “Uma entidade independente e autocontida de dados que transporta informações suficientes para serem roteadas da origem ao computador de destino sem depender de trocas anteriores entre este computador de origem e de destino e a rede de transporte”.
 
-Um datagrama é uma unidade de transferência básica associada a uma rede de comutação de pacotes. Os datagramas são normalmente estruturados em seções de cabeçalho e carga útil. Os datagramas fornecem um serviço de comunicação sem conexão em uma rede comutada por pacotes. A entrega, a hora de chegada e a ordem de chegada dos datagramas não precisam ser garantidas pela rede.
+Um datagrama é uma unidade de transferência básica associada a uma rede de comutação de pacotes. Os datagramas são normalmente estruturados em seções de cabeçalho e carga útil. Os datagramas fornecem um serviço de comunicação sem conexão em uma rede comutada por pacotes. A entrega, a hora de chegada e a ordem de chegada dos datagramas não precisam ser garantidas pela rede. Cada datagrama possui dois componentes, um cabeçalho e uma carga útil de dados. O cabeçalho contém todas as informações suficientes para o roteamento do equipamento de origem ao destino e a carga útil são os dados a serem transportados. Sem confirmação de entrega ou recebimento.
 
 
 ## Bibliografia
