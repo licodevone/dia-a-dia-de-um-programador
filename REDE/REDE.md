@@ -2,7 +2,10 @@
 
 # História do `TCP/IP`
 
+A tecnologia TCP/IP foi criada para ser roteável e interligar diversos hosts. 
+
 O conjunto de protocolos de comunicação foi desenvolvido em 1969, no Departamento de Defesa dos Estados Unidos. Ele fez parte do projeto conhecido como ARPANET que ao longo dos anos se transformou em Internet.
+
 Um dos primeiros testes do protocolo TCP/IP ocorreu em 1975, entre a Universidade de Stanford, nos Estados Unidos, e a University College London, na Inglaterra.
 Ao longo das décadas seguintes, o desenvolvimento da tecnologia se juntaria a outros avanços, como a criação do HTTP, para a formação da Internet tal qual ela é conhecida hoje: uma rede mundial de computadores trocando dados e informações de maneira incessante.
 
@@ -22,7 +25,6 @@ Fazendo um paralelo com um serviço postal, a camada de aplicação seria o mome
 
 No universo digital não é diferente: um navegador de Internet pode utilizar protocolos como o HTTP e o HTTPS para realizar a comunicação a partir das URLs. Enquanto isso, um cliente de transferência de arquivos, como o FileZilla, utiliza o protocolo FTP. Já um serviço de email geralmente utiliza o protocolo SMTP.
 
-pagina principal do gmail
 Em outras palavras, a camada de aplicação existe para que o TCP/IP defina qual o tipo ou finalidade daquela transmissão de dados específica, seja ela o carregamento de um site, o upload de arquivo ou o envio de um email, por exemplo. A partir desta definição, o processo é encaminhado para as camadas seguintes.
 
 ### `Camada de transporte`
@@ -33,7 +35,8 @@ A camada de transporte seria a preparação do seu pacote para envio: o serviço
 
 Para isso ela estabelece os canais de comunicação de transferência de dados, todos eles independentes dos hosts e responsáveis por garantir que cada byte que compõe os dados em questão serão transmitidos de forma íntegra, os dados são divididos em pacotes e numerados, criando uma sequência lógica que será verificada nas camadas seguintes para garantir que o processo seja concluído, definindo para onde os dados devem ser enviados e a que taxa essa transferência deve ser realizada.
 
-Portas TCP
+##### `Portas TCP`
+
 Para realizar esse processo, o TCP usa as chamadas portas, elementos numéricos que identificam os pontos de uma transferência de dados. As portas são sempre utilizadas em conjunto com um endereço de rede (como o endereço IP, sobre o qual falaremos mais abaixo).
 
 Por serem identificadas numericamente num padrão de 16 bits, as portas vão do 0 até o 65535. Alguns números de portas são universalmente utilizados para determinados processos. Por exemplo:
@@ -69,11 +72,55 @@ Como Configurar um Firewall no Ubuntu com UFW
 Como Configurar Port Forwarding em um Servidor Minecraft no Windows, macOS e Linux
 O que é SSL / TLS e HTTPS? "
 
-### Datagrama
+### Datagrama IP
 
 A RFC 1594 define o termo datagrama da seguinte forma: “Uma entidade independente e autocontida de dados que transporta informações suficientes para serem roteadas da origem ao computador de destino sem depender de trocas anteriores entre este computador de origem e de destino e a rede de transporte”.
 
-Um datagrama é uma unidade de transferência básica associada a uma rede de comutação de pacotes. Os datagramas são normalmente estruturados em seções de cabeçalho e carga útil. Os datagramas fornecem um serviço de comunicação sem conexão em uma rede comutada por pacotes. A entrega, a hora de chegada e a ordem de chegada dos datagramas não precisam ser garantidas pela rede. Cada datagrama possui dois componentes, um cabeçalho e uma carga útil de dados. O cabeçalho contém todas as informações suficientes para o roteamento do equipamento de origem ao destino e a carga útil são os dados a serem transportados. Sem confirmação de entrega ou recebimento.
+Um datagrama é uma unidade de transferência básica associada a uma rede de comutação de pacotes. Os datagramas são normalmente estruturados em seções de cabeçalho e carga útil. Os datagramas fornecem um serviço de comunicação sem conexão em uma rede comutada por pacotes. A entrega, a hora de chegada e a ordem de chegada dos datagramas não precisam ser garantidas pela rede. Cada datagrama possui dois componentes, um cabeçalho e uma carga útil de dados. O cabeçalho contém todas as informações suficientes para o roteamento do equipamento de origem ao destino e a carga útil são os dados a serem transportados. O datagrama IP não é orientada a conexão, sem confirmação de entrega ou recebimento, não trata erros. São 6 linhas cada com 32 bits.
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+`Primeira linha do datagrama`
+
+`Version`
+
+Caso seja IPV4 ficaria quatro em binário (0100) .Utilizndo o código BCD 8421 (de Binary-coded decimal 8421). Os valores 8421 são respectivamente os valores de 2 elevado ao valor de sua posição (3,2,1,0)
+
+![alt text](image-4.png)
+
+`IHL (Internet Header language)`
+
+É o tamanho dp cabeçalho e possui tamanho variável. Options nem é utilizado.
+
+![alt text](image-5.png)
+
+`Type of service (TOS)`
+
+Trata a qualidade do serviço (QoS - Quality of service) D - delay, T - trucut, R - reliability 
+É possível fazer mais não funciona a contento.
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
+
+![alt text](image-8.png)
+
+`Total Length`
+
+É possível descobrir o tamanho do cabeçalho e começa a área de dados.
+
+![alt text](image-9.png)
+
+`Segunda linha do datagrama`
+
+`Identification`
+
+O campo Identification num datagrama IP é um inteiro que identifica o datagrama. Este campo é muito importante porque, quando um gateway fragmenta um datagrama, ele copia a maioria dos campos do cabeçalho do datagrama.
+Quando um datagrama é criado o emissor o identifica com um número de identificação (Identification), assim como um endereço IP de origem e destino. Para cada novo datagrama criado o emissor gera uma nova identificação incrementando o valor deste campo.
+
+
 
 
 ## Bibliografia
