@@ -120,8 +120,84 @@ Trata a qualidade do serviço (QoS - Quality of service) D - delay, T - trucut, 
 O campo Identification num datagrama IP é um inteiro que identifica o datagrama. Este campo é muito importante porque, quando um gateway fragmenta um datagrama, ele copia a maioria dos campos do cabeçalho do datagrama.
 Quando um datagrama é criado o emissor o identifica com um número de identificação (Identification), assim como um endereço IP de origem e destino. Para cada novo datagrama criado o emissor gera uma nova identificação incrementando o valor deste campo.
 
+![alt text](image-10.png)
 
+`Flags`
 
+`DF` - Don't fragment (não fragmentar) - Não permite que um datagrama seja fragmentado (ex.: o destino é incapaz de remontar o datagrama. MF - More fragments (mais fragmentos) - indica que mais fragmentos estão sendo esperados para a remontagem do pacote. O valor 0 não posso fragmentar o datagrama se for 1 sim.
+
+![alt text](image-11.png)
+`Fragment ofset`
+
+`MF` - More Fragment (mais fragmento)
+
+![alt text](image-12.png)
+
+![alt text](image-13.png)
+
+`Time to Live (TTL)`
+Tempo de vida do pacote, seu campo de 8 bits. Evitar que pacotes fiquem vagando em loops, ele possui 255, número máximo de máquinas para chegar ao destino, quase esse valor de 255 chegue a 0, o pacote é descartado.
+
+![alt text](image-14.png)
+
+![alt text](image-15.png)
+
+Fragmentação e remontagem de IPv4
+Embora o comprimento máximo de um datagrama IPv4 seja 65535, a maioria dos links de transmissão impõe um limite menor de comprimento máximo do pacote, chamado MTU. O valor de MTU depende do link de transmissão.
+
+`Protocol`
+
+Para quem será entregue os dados, os mais utilizados são TCP, UDP e ICMP
+
+![alt text](image-16.png)
+
+`Header Checksum`
+
+Soma de verificação do cabeçalho, através dessa verificação o roteador sabe se é para ele a informação. O TTL faz um decremento e atualiza o Checkum.
+
+`Source Address`
+
+É o endereço do IP de origem 32 bits IPV4.
+
+![alt text](image-17.png)
+
+`Destination Address`
+
+É o endereço do IP de destino 32 bits IPV4.
+
+![alt text](image-18.png)
+
+`Optios`
+
+É opcional
+
+![alt text](image-19.png)
+
+![alt text](image-20.png)
+
+![alt text](image-21.png)
+
+Não é muito fácil nem usual traçar a rota.
+
+![alt text](image-22.png)
+
+![alt text](image-23.png)
+
+Na prática a maquina A quer se comunicar com o máquinna D.
+
+![alt text](image-24.png)
+
+![alt text](image-25.png)
+
+![alt text](image-26.png)
+
+`ARP (Address Resolution Protocol)`
+
+É um protocolo que permite que os dispositivos numa rede determinem o endereço físico de outro dispositivo com base no seu endereço IP. O endereço físico, também conhecido como endereço de controlo de acesso à mídia (MAC), é um endereço fixo da máquina, enquanto o endereço IP é um endereço de protocolo de Internet (IP) que está constantemente a mudar. Como estes dois endereços diferem em comprimento e formato, o ARP é essencial para permitir que computadores e outros dispositivos se comuniquem através de uma rede. O ARP é utilizado somente em redes internas.
+
+![alt text](image-27.png)
+
+![alt text](image-28.png)
 
 ## Bibliografia
 
@@ -130,3 +206,5 @@ https://www.hostinger.com.br/tutoriais/tcp-ip#Historia_do_TCPIP
 https://www.uniaogeek.com.br/arquitetura-de-redes-tcpip/
 
 https://pt.wikipedia.org/wiki/Datagrama#:~:text=de%20itens%20identificados.-,Defini%C3%A7%C3%A3o,e%20a%20rede%20de%20transporte%E2%80%9D.
+
+https://www.youtube.com/watch?v=2O-zMcYe-RE
