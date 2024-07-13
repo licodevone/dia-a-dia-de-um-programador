@@ -14,7 +14,7 @@
 
 ### 7 - **[Clique aqui](GIT.md)** para saber mais sobre o tema (GIT) 
 
-### 8 - **[Clique aqui](IOT.md)** para saber mais sobre o tema (IOT) 
+### 8 - **[Clique aqui](IOT/IOT.md)** para saber mais sobre o tema (IOT) 
 
 ### 9 - **[Clique aqui](SANDBOX.md)** para saber mais sobre o tema (Sandbox)
 
