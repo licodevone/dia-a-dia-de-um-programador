@@ -24,7 +24,7 @@
 
 ### 12 - **[Clique aqui](WINDOWS/SSDEXTERNA.md)** para saber mais sobre o tema (SSDEXTERNA) 
 
-### 13 - **[Clique aqui](WINDOWS/WINDOWS-FOR-PRO.md)** para saber mais sobre o tema (WINDOWS-FOR-PRO) 
+### 13 - **[Clique aqui](WINDOWS/WINDOWS-PRO.md)** para saber mais sobre o tema (WINDOWS-PRO) 
 
 ### 14 - **[Clique aqui](WINDOWS/TERMINAL.md)** para saber mais sobre o tema (TERMINAL)
 
