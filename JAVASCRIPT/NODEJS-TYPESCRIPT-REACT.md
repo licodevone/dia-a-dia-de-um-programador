@@ -63,7 +63,7 @@ npm notice
 8.13.1
 ```
 
-![Alt text](img/image-61.png)
+![Alt text](../img/image-61.png)
 
 ```
 ➜  api-rest-node-typescript yarn init -y
@@ -73,7 +73,7 @@ success Saved package.json
 Done in 0.03s.
 ```
 
-![Alt text](img/image-62.png)
+![Alt text](../img/image-62.png)
 
 ## Instalação do Express
 
