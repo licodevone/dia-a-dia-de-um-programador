@@ -133,11 +133,16 @@ Acessar no menu o ícone da Espressif
 
 > A Lib 2.0 da Espressif para  IDE Arduino terá suporte somente até julho de 2024.(incluindo suporte para ESP32-C6 e ESP32-H2)
 
-- https://blog.espressif.com/announcing-the-arduino-esp32-core-version-3-0-0-3bf9f24e20d4
+- https://docs.espressif.com/projects/arduino-esp32/en/latest/migration_guides/2.x_to_3.0.html
 
+- https://blog.espressif.com/announcing-the-arduino-esp32-core-version-3-0-0-3bf9f24e20d4
 
 
 ![alt text](image-40.png)
 
+### Atualizando
 
+![alt text](image-41.png)
+
+![alt text](image-42.png)
 
