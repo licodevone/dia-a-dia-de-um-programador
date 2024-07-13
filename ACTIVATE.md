@@ -9,7 +9,7 @@ slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
 ```
 Then you Enter
 
-Passo 3: Você copia e cola este código “slmgr /skms kms8.msguides.com”. Então você entra para se conectar ao meu servidor KMS.
+Passo 3: Você copia e cola este código “slmgr /skms kms8.msguides.com”. Então você entra para se conectar ao servidor KMS.
 
 ```
 slmgr /skms kms8.msguides.com
