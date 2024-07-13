@@ -1,19 +1,19 @@
 
 # VSCode instalações e configurações
 
-![alt text](image-6.png)
+![alt text](img/image-6.png)
 
-![alt text](image-8.png)
+![alt text](img/image-8.png)
 
-![alt text](image-9.png)
+![alt text](img/image-9.png)
 
-![alt text](image-10.png)
+![alt text](img/image-10.png)
 
-![alt text](image-12.png)
+![alt text](img/image-12.png)
 
 ## Configuração do terminal powerlevel 10K
 
-![alt text](image-7.png)
+![alt text](img/image-7.png)
 
 https://github.com/romkatv/powerlevel10k/issues/671
 
@@ -31,7 +31,7 @@ No PC: pressione Ctrl+,ou clique em Arquivo → Preferências → Configuraçõe
 No Mac: pressione ⌘ ,ou clique em Código → Preferências → Configurações .
 Digite terminal.integrated.fontFamilyna caixa de pesquisa na parte superior da guia Configurações e defina o valor abaixo como MesloLGS NF.
 
-![alt text](image-23.png)
+![alt text](img/image-23.png)
 
 Você pode encontrar instruções semelhantes para todos os terminais populares neste documento: https://github.com/romkatv/powerlevel10k/blob/master/font.md
 
@@ -39,7 +39,7 @@ Você pode encontrar instruções semelhantes para todos os terminais populares 
 terminal.integrated.fontFamily
 ```
 
-![alt text](image-24.png)
+![alt text](img/image-24.png)
 
 Inserir as duas linhas no settigins.json
 ```
@@ -48,7 +48,7 @@ Inserir as duas linhas no settigins.json
     "terminal.integrated.fontFamily": "MesloLGS NF",
 }
 ```
-![alt text](image-25.png)
+![alt text](img/image-25.png)
 
 settings.json
 
@@ -65,4 +65,4 @@ settings.json
 
 ## ESLint
 
-![alt text](image-36.png)
+![alt text](img/image-36.png)

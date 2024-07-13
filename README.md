@@ -6,31 +6,29 @@
 
 ### 3 - **[Clique aqui](JAVASCRIPT/VITE.md)** para saber  maissobre o tema (VITE) 
 
-### 4 - **[Clique aqui](OMYPOSH.md)** para saber mais sobre o tema (OhMyPosh) 
+### 4 - **[Clique aqui](WINDOWS/OHMYPOSH.md)** para saber mais sobre o tema (OhMyPosh) 
 
 ### 5 - **[Clique aqui](PYTHON/PYTHON.md)** para saber mais sobre o tema (PYTHON) 
 
-### 6 - **[Clique aqui](ACTIVATE.md)** Ativação do Windows (ACTIVATE)
+### 6 - **[Clique aqui](WINDOWS/ACTIVATE.md)** Ativação do Windows (ACTIVATE)
 
-### 7 - **[Clique aqui](GIT.md)** para saber mais sobre o tema (GIT) 
+### 7 - **[Clique aqui](GIT/GIT.md)** para saber mais sobre o tema (GIT) 
 
 ### 8 - **[Clique aqui](IOT/IOT.md)** para saber mais sobre o tema (IOT) 
 
-### 9 - **[Clique aqui](SANDBOX.md)** para saber mais sobre o tema (Sandbox)
+### 9 - **[Clique aqui](WINDOWS/SANDBOX.md)** para saber mais sobre o tema (Sandbox)
 
 ### 10 - **[Clique aqui](VSCODE.md)** para saber mais sobre o tema (VSCode)
 
 ### 11 - **[Clique aqui](MARKDOWN.md)** para saber mais sobre o tema (MARKDOWN) 
 
-### 12 - **[Clique aqui](SSDEXTERNA.md)** para saber mais sobre o tema (SSDEXTERNA) 
+### 12 - **[Clique aqui](WINDOWS/SSDEXTERNA.md)** para saber mais sobre o tema (SSDEXTERNA) 
 
-### 13 - **[Clique aqui](WINDOWS-FOR-PRO.md)** para saber mais sobre o tema (WINDOWS-FOR-PRO) 
+### 13 - **[Clique aqui](WINDOWS/WINDOWS-FOR-PRO.md)** para saber mais sobre o tema (WINDOWS-FOR-PRO) 
 
-### 14 - **[Clique aqui](CHROME.md)** para saber mais sobre o tema (CHROME) 
+### 14 - **[Clique aqui](WINDOWS/TERMINAL.md)** para saber mais sobre o tema (TERMINAL)
 
-### 15 - **[Clique aqui](TERMINAL.md)** para saber mais sobre o tema (TERMINAL)
-
-### 16 - **[Clique aqui](VMHYPERV.md)** para saber mais sobre o tema (VMHYPERV)
+### 15 - **[Clique aqui](WINDOWS/VMHYPERV.md)** para saber mais sobre o tema (VMHYPERV)
 
 
 

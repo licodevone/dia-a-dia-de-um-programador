@@ -20,6 +20,6 @@ Passo 5: O último passo é ativar o seu Windows você usa o comando “slmgr /a
 slmgr /ato
 ```
 
-![alt text](img/imagens_3/image-69.png)
+![alt text](../img/imagens_3/image-69.png)
 
 https://gist.github.com/Minionguyjpro/d913b3931e844ad8ad9a758a4aca4b63

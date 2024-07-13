@@ -1,6 +1,6 @@
 ## Instalação do OhMyPosh para estilizar o terminal do Windows
 
-![alt text](img/image-77.png)
+![alt text](../img/image-77.png)
 
 > Instalação do OhMyPosh através do terminal com Winget
 
@@ -15,7 +15,7 @@ Hash do instalador verificado com êxito
 Iniciando a instalação do pacote...
 Instalado com êxito
 ```
-![Alt text](img/image-63.png)
+![Alt text](../img/image-63.png)
 
 > Após a instalação, fechar o terminal e reabrí-lo novamente
 
@@ -26,7 +26,7 @@ Instalado com êxito
 ```sh
 oh-my-posh font install --user
 ```
-![Alt text](img/image-64.png)
+![Alt text](../img/image-64.png)
 
 >
 
@@ -34,23 +34,23 @@ oh-my-posh font install --user
 
 > Esse erro ocorre devido a não abrir não reabrir o terminal
 
-![Alt text](img/image-65.png)
+![Alt text](../img/image-65.png)
 
 > Fechar novamente e abri como administrador e seguir os passos das imagens abaixo
 
-![Alt text](img/image-66.png)
+![Alt text](../img/image-66.png)
 
-![Alt text](img/image-67.png)
+![Alt text](../img/image-67.png)
 
-![Alt text](img/image-68.png)
+![Alt text](../img/image-68.png)
 
-![Alt text](img/image-69.png)
+![Alt text](../img/image-69.png)
 
 > Pesonalizar com um tema desejado https://ohmyposh.dev/docs/themes
 
 > Erro de configuração
 
-![Alt text](img/image-70.png)
+![Alt text](../img/image-70.png)
 
 ## Fira code ligaduras de caracteres
 
